@@ -1,0 +1,314 @@
+{
+   "version":"1.2.9",
+   "files":[
+      {
+         "loadFromURL":false,
+         "label":"Untitled",
+         "id":0,
+         "autoFields":[
+            
+         ],
+         "fields":[
+            {
+               "key":"Place",
+               "description":"Place",
+               "cardinality":10,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  "-"
+               ],
+               "unassignedSpecialChars":[
+                  "-"
+               ],
+               "countBy":true,
+               "errors":[
+                  
+               ],
+               "$$hashKey":"object:116",
+               "verifiedSpecialChars":[
+                  "-"
+               ],
+               "confirmed":true,
+               "countable":true,
+               "countDescription":"Untitled"
+            },
+            {
+               "key":"Address",
+               "description":"Address",
+               "cardinality":10,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:117"
+            },
+            {
+               "key":"Arrondissement",
+               "description":"Arrondissement",
+               "cardinality":3,
+               "type":"number",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:118"
+            },
+            {
+               "key":"Coordinates",
+               "description":"Coordinates",
+               "cardinality":10,
+               "type":"latlong",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  ","
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:119",
+               "existenceDimension":"0.gnbzp60svg"
+            },
+            {
+               "key":"",
+               "description":"",
+               "cardinality":0,
+               "type":"null",
+               "blanks":10,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:120"
+            }
+         ],
+         "data":[
+            {
+               "Place":"Cafè du Helder",
+               "Address":"29 Boulevard des Italiens",
+               "Arrondissement":"9",
+               "Coordinates":"48.870928, 2.335123",
+               "":""
+            },
+            {
+               "Place":"Cafè Riche",
+               "Address":"16 Boulevard des Italiens",
+               "Arrondissement":"9",
+               "Coordinates":"48.871752, 2.337676",
+               "":""
+            },
+            {
+               "Place":"Brasserie des Martyrs",
+               "Address":"17 Rue des Martyrs",
+               "Arrondissement":"9",
+               "Coordinates":" 48.877927, 2.339354",
+               "":""
+            },
+            {
+               "Place":"Bal de l'Ermitage",
+               "Address":"6 Boulevard de Clichy",
+               "Arrondissement":"18",
+               "Coordinates":" 48.882449, 2.339059",
+               "":""
+            },
+            {
+               "Place":"Cimetière Montmartre",
+               "Address":"20 Avenue Rachel",
+               "Arrondissement":"18",
+               "Coordinates":"48.885886, 2.331885",
+               "":""
+            },
+            {
+               "Place":"Dinochau",
+               "Address":"Angle Rue Breda (Rue Monnier) et Rue Navarin",
+               "Arrondissement":"9",
+               "Coordinates":"48.880019, 2.33734",
+               "":""
+            },
+            {
+               "Place":"Élysée-Montmartre",
+               "Address":"72 Boulevard de Rochechouart",
+               "Arrondissement":"18",
+               "Coordinates":"48.883014, 2.343663",
+               "":""
+            },
+            {
+               "Place":"Jardin des plantes",
+               "Address":"57 Rue Cuvier",
+               "Arrondissement":"5",
+               "Coordinates":"48.844343, 2.35621",
+               "":""
+            },
+            {
+               "Place":"Opéra (bal)",
+               "Address":"12 Rue Le Peletier",
+               "Arrondissement":"9",
+               "Coordinates":"48.872755, 2.338658",
+               "":""
+            },
+            {
+               "Place":"Divan Le Peletier",
+               "Address":"5 Rue Lepeletier",
+               "Arrondissement":"9",
+               "Coordinates":"48.872285, 2.338338",
+               "":""
+            }
+         ],
+         "uniqueId":0,
+         "$$hashKey":"object:110"
+      }
+   ],
+   "links":[
+      
+   ],
+   "layout":"geo",
+   "metadata":{
+      "title":"mappa 7",
+      "author":null,
+      "date":null,
+      "description":null
+   },
+   "vis":[
+      {
+         "type":"palladioFilters",
+         "importJson":{
+            "facets":[
+               
+            ],
+            "timelines":[
+               
+            ],
+            "partimes":[
+               
+            ],
+            "timesteps":[
+               
+            ]
+         }
+      },
+      {
+         "type":"graphView",
+         "importJson":{
+            "showLinks":true,
+            "showLabels":true,
+            "aggregateKey":null,
+            "aggregationType":"COUNT",
+            "nodeSize":false,
+            "highlightSource":false,
+            "highlightTarget":false,
+            "aggDimKey":"Place",
+            "sourceDimension":null,
+            "targetDimension":null,
+            "fixedNodes":false
+         }
+      },
+      {
+         "type":"mapView",
+         "importJson":{
+            "tileSets":[
+               {
+                  "url":null,
+                  "mbId":"cesta/ckg1qp80v02631apq1amjacri",
+                  "enabled":true,
+                  "description":"Streets"
+               },
+               {
+                  "url":null,
+                  "mbId":"cesta.hd9ak6ie",
+                  "enabled":true,
+                  "description":"Land"
+               }
+            ],
+            "layers":[
+               {
+                  "aggDescription":"Number of Untitled",
+                  "aggregateKey":null,
+                  "aggregationType":"COUNT",
+                  "color":"#11d9eb",
+                  "countBy":"Place",
+                  "description":"Coordinates",
+                  "enabled":true,
+                  "layerType":"data",
+                  "descriptiveDimKey":"Place",
+                  "mapping":{
+                     "sourceCoordinatesKey":"Coordinates",
+                     "sourceCoordinatesType":null,
+                     "sourceCoordinatesDescription":"Coordinates",
+                     "destinationCoordinatesKey":null,
+                     "destinationCoordinatesType":null,
+                     "destinationCoordinatesDescription":null
+                  },
+                  "pointSize":false,
+                  "showLinks":false,
+                  "type":"points"
+               }
+            ]
+         }
+      },
+      {
+         "type":"tableView",
+         "importJson":{
+            "tableDimensions":[
+               
+            ],
+            "countDim":null,
+            "maxDisplay":1000
+         }
+      },
+      {
+         "type":"listView",
+         "importJson":{
+            "titleDim":"Place"
+         }
+      }
+   ]
+}

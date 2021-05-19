@@ -1,0 +1,546 @@
+{
+   "version":"1.2.9",
+   "files":[
+      {
+         "loadFromURL":false,
+         "label":"Untitled",
+         "id":0,
+         "autoFields":[
+            
+         ],
+         "fields":[
+            {
+               "key":"Place",
+               "description":"Place",
+               "cardinality":27,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  "-"
+               ],
+               "unassignedSpecialChars":[
+                  "-"
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"generated",
+               "$$hashKey":"object:116",
+               "verifiedSpecialChars":[
+                  "-"
+               ],
+               "confirmed":true
+            },
+            {
+               "key":"Address",
+               "description":"Address",
+               "cardinality":24,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  "-"
+               ],
+               "unassignedSpecialChars":[
+                  "-"
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"generated",
+               "$$hashKey":"object:117",
+               "verifiedSpecialChars":[
+                  "-"
+               ],
+               "confirmed":true
+            },
+            {
+               "key":"Arrondissement",
+               "description":"Arrondissement",
+               "cardinality":1,
+               "type":"number",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"generated",
+               "$$hashKey":"object:118"
+            },
+            {
+               "key":"Frequency",
+               "description":"Frequency",
+               "cardinality":10,
+               "type":"number",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"generated",
+               "$$hashKey":"object:119"
+            },
+            {
+               "key":" Coordinates",
+               "description":" Coordinates",
+               "cardinality":24,
+               "type":"latlong",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  ","
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"generated",
+               "$$hashKey":"object:120",
+               "existenceDimension":"0.vazs35iu37k"
+            },
+            {
+               "key":" Type of place",
+               "description":" Type of place",
+               "cardinality":8,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"generated",
+               "$$hashKey":"object:121"
+            },
+            {
+               "key":"generated",
+               "description":"generated",
+               "cardinality":28,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":true,
+               "errors":[
+                  
+               ],
+               "$$hashKey":"object:122",
+               "countable":true,
+               "countDescription":"Untitled"
+            }
+         ],
+         "data":[
+            {
+               "Place":"Café de Mulhouse",
+               "Address":"Passage Jouffroy",
+               "Arrondissement":"9",
+               "Frequency":"1",
+               " Coordinates":"48.872584,2.34222",
+               " Type of place":" Coffee",
+               "generated":"0"
+            },
+            {
+               "Place":"Café de Rochefoucauld",
+               "Address":"57 Rue Notre Dame de Lorette",
+               "Arrondissement":"9",
+               "Frequency":"1",
+               " Coordinates":"48.880196, 2.335126",
+               " Type of place":" Coffee",
+               "generated":"1"
+            },
+            {
+               "Place":"Café de Paris",
+               "Address":"24 Boulevard des Italiens",
+               "Arrondissement":"9",
+               "Frequency":"1",
+               " Coordinates":"48.871539,2.336282",
+               " Type of place":" Coffee",
+               "generated":"2"
+            },
+            {
+               "Place":"Café de Paris",
+               "Address":"24 Boulevard des Italiens",
+               "Arrondissement":"9",
+               "Frequency":"1",
+               " Coordinates":"48.871539, 2.336282",
+               " Type of place":" Coffee",
+               "generated":"3"
+            },
+            {
+               "Place":"Café du Helder",
+               "Address":"29 Boulevard des Italiens",
+               "Arrondissement":"9",
+               "Frequency":"6",
+               " Coordinates":"48.870928, 2.335123",
+               " Type of place":" Coffee",
+               "generated":"4"
+            },
+            {
+               "Place":"Café Leblond",
+               "Address":"Passage de l’Opéra (12 Rue Le Peletier et Rue Drouot)",
+               "Arrondissement":"9",
+               "Frequency":"1",
+               " Coordinates":"48.872755, 2.338658",
+               " Type of place":" Coffee",
+               "generated":"5"
+            },
+            {
+               "Place":"Café Mazarin",
+               "Address":"16 Boulevard Montmartre",
+               "Arrondissement":"9",
+               "Frequency":"2",
+               " Coordinates":"48.87198, 2.341263",
+               " Type of place":" Coffee",
+               "generated":"6"
+            },
+            {
+               "Place":"Café Riche",
+               "Address":"16 Boulevard des Italiens",
+               "Arrondissement":"9",
+               "Frequency":"13",
+               " Coordinates":"48.871752, 2.337676",
+               " Type of place":" Coffee",
+               "generated":"7"
+            },
+            {
+               "Place":"Café Tortoni",
+               "Address":"22 Boulevard des Italiens",
+               "Arrondissement":"9",
+               "Frequency":"3",
+               " Coordinates":"48.872014, 2.336861",
+               " Type of place":" Coffee",
+               "generated":"8"
+            },
+            {
+               "Place":"Bignon",
+               "Address":"2 Rue de la Chaussée d'Antin",
+               "Arrondissement":"9",
+               "Frequency":"4",
+               " Coordinates":"48.871207, 2.334206",
+               " Type of place":" Restaurant",
+               "generated":"9"
+            },
+            {
+               "Place":"Brasserie des Martyrs",
+               "Address":"17 Rue des Martyrs",
+               "Arrondissement":"9",
+               "Frequency":"2",
+               " Coordinates":"48.877927, 2.339354",
+               " Type of place":" Restaurant",
+               "generated":"10"
+            },
+            {
+               "Place":"Brébant",
+               "Address":"32 Boulevard Poissonnière",
+               "Arrondissement":"9",
+               "Frequency":"1",
+               " Coordinates":"48.87161, 2.343498",
+               " Type of place":" Restaurant",
+               "generated":"11"
+            },
+            {
+               "Place":"Broggi",
+               "Address":"19 Rue Le Peletier",
+               "Arrondissement":"9",
+               "Frequency":"3",
+               " Coordinates":"48.872851, 2.338386",
+               " Type of place":" Restaurant",
+               "generated":"12"
+            },
+            {
+               "Place":"Dinochau",
+               "Address":"Angle Rue Breda (Rue Monnier) et Rue Navarin",
+               "Arrondissement":"9",
+               "Frequency":"5",
+               " Coordinates":"48.880019, 2.33734",
+               " Type of place":" Restaurant",
+               "generated":"13"
+            },
+            {
+               "Place":"Grosse-Tête",
+               "Address":"30 Rue Daunou (ex Rue Neuve-Saint-Augustin)",
+               "Arrondissement":"9",
+               "Frequency":"6",
+               " Coordinates":"48.870021, 2.330473",
+               " Type of place":" Restaurant",
+               "generated":"14"
+            },
+            {
+               "Place":"La Taverne Anglaise",
+               "Address":"5 Rue de la Chaussée d'Antin",
+               "Arrondissement":"9",
+               "Frequency":"3",
+               " Coordinates":"48.872013, 2.333508",
+               " Type of place":" Restaurant",
+               "generated":"15"
+            },
+            {
+               "Place":"La Terrasse",
+               "Address":"10 Boulevard Montmartre",
+               "Arrondissement":"9",
+               "Frequency":"1",
+               " Coordinates":"48.871824, 2.34216",
+               " Type of place":" Restaurant",
+               "generated":"16"
+            },
+            {
+               "Place":"Maison d'or",
+               "Address":"20 Boulevard des Italiens",
+               "Arrondissement":"9",
+               "Frequency":"8",
+               " Coordinates":"48.871878, 2.336879",
+               " Type of place":" Restaurant",
+               "generated":"17"
+            },
+            {
+               "Place":"Vachette",
+               "Address":"32 Boulevard Poissonnière",
+               "Arrondissement":"9",
+               "Frequency":"2",
+               " Coordinates":"48.87161, 2.343498",
+               " Type of place":" Restaurant",
+               "generated":"18"
+            },
+            {
+               "Place":"Opéra",
+               "Address":"12 Rue Le Peletier",
+               "Arrondissement":"9",
+               "Frequency":"20",
+               " Coordinates":"48.872755, 2.338658",
+               " Type of place":" Theater",
+               "generated":"19"
+            },
+            {
+               "Place":"Théâtre Lyrique",
+               "Address":"22 Rue de la Tour-d'Auvergne",
+               "Arrondissement":"9",
+               "Frequency":"2",
+               " Coordinates":"48.879196, 2.343891",
+               " Type of place":" Theater",
+               "generated":"20"
+            },
+            {
+               "Place":"Cercle des Ganaches",
+               "Address":"16 Boulevard Montmartre",
+               "Arrondissement":"9",
+               "Frequency":"1",
+               " Coordinates":"48.87198, 2.341263",
+               " Type of place":" Club",
+               "generated":"21"
+            },
+            {
+               "Place":"Collège Rollin",
+               "Address":"12 Avenue Trudaine",
+               "Arrondissement":"9",
+               "Frequency":"2",
+               " Coordinates":"48.881534, 2.344391",
+               " Type of place":" College",
+               "generated":"22"
+            },
+            {
+               "Place":"Divan Le Peletier",
+               "Address":"5 Rue Lepeletier",
+               "Arrondissement":"9",
+               "Frequency":"3",
+               " Coordinates":"48.872285, 2.338338",
+               " Type of place":" Coffee",
+               "generated":"23"
+            },
+            {
+               "Place":"Drouot (Hôtel)",
+               "Address":"9 Rue Drouot",
+               "Arrondissement":"9",
+               "Frequency":"1",
+               " Coordinates":"48.873009, 2.340319",
+               " Type of place":" Public Auction",
+               "generated":"24"
+            },
+            {
+               "Place":"Jockey-Club",
+               "Address":"1 Rue Scribe",
+               "Arrondissement":"9",
+               "Frequency":"1",
+               " Coordinates":"48.870763, 2.32976",
+               " Type of place":" Club",
+               "generated":"25"
+            },
+            {
+               "Place":"Opéra (bal)",
+               "Address":"12 Rue Le Peletier",
+               "Arrondissement":"9",
+               "Frequency":"18",
+               " Coordinates":"48.872755, 2.338658",
+               " Type of place":" Dance Establishement",
+               "generated":"26"
+            },
+            {
+               "Place":"Potel et Chabot",
+               "Address":"Rue Notre Dame de Lorette",
+               "Arrondissement":"9",
+               "Frequency":"2",
+               " Coordinates":"48.878696, 2.337217",
+               " Type of place":" Shop",
+               "generated":"27"
+            }
+         ],
+         "uniqueId":0,
+         "$$hashKey":"object:110"
+      }
+   ],
+   "links":[
+      
+   ],
+   "layout":"geo",
+   "metadata":{
+      "title":"17",
+      "author":null,
+      "date":null,
+      "description":null
+   },
+   "vis":[
+      {
+         "type":"palladioFilters",
+         "importJson":{
+            "facets":[
+               
+            ],
+            "timelines":[
+               
+            ],
+            "partimes":[
+               
+            ],
+            "timesteps":[
+               
+            ]
+         }
+      },
+      {
+         "type":"graphView",
+         "importJson":{
+            "showLinks":true,
+            "showLabels":true,
+            "aggregateKey":null,
+            "aggregationType":"COUNT",
+            "nodeSize":false,
+            "highlightSource":false,
+            "highlightTarget":false,
+            "aggDimKey":"generated",
+            "sourceDimension":null,
+            "targetDimension":null,
+            "fixedNodes":false
+         }
+      },
+      {
+         "type":"mapView",
+         "importJson":{
+            "tileSets":[
+               {
+                  "url":null,
+                  "mbId":"cesta/ckg1qp80v02631apq1amjacri",
+                  "enabled":true,
+                  "description":"Streets"
+               },
+               {
+                  "url":null,
+                  "mbId":"cesta.hd9ak6ie",
+                  "enabled":true,
+                  "description":"Land"
+               }
+            ],
+            "layers":[
+               {
+                  "aggDescription":"Sum of Frequency (from Untitled table)",
+                  "aggregateKey":"Frequency",
+                  "aggregationType":"SUM",
+                  "color":"#e42727",
+                  "countBy":"generated",
+                  "description":" Coordinates",
+                  "enabled":true,
+                  "layerType":"data",
+                  "descriptiveDimKey":"Place",
+                  "mapping":{
+                     "sourceCoordinatesKey":" Coordinates",
+                     "sourceCoordinatesType":null,
+                     "sourceCoordinatesDescription":" Coordinates",
+                     "destinationCoordinatesKey":null,
+                     "destinationCoordinatesType":null,
+                     "destinationCoordinatesDescription":null
+                  },
+                  "pointSize":true,
+                  "showLinks":false,
+                  "type":"points"
+               }
+            ]
+         }
+      },
+      {
+         "type":"tableView",
+         "importJson":{
+            "tableDimensions":[
+               
+            ],
+            "countDim":null,
+            "maxDisplay":1000
+         }
+      },
+      {
+         "type":"listView",
+         "importJson":{
+            "titleDim":"generated"
+         }
+      }
+   ]
+}
