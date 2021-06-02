@@ -1,0 +1,1 @@
+﻿Place;Address;Arrondissement;Frequency; Coordinates; Type of placePère Lathuile;7 Avenue de Clichy;17;2;48.884329, 2.326845; RestaurantDourlans (Bal);39 Avenue de Wagram;17;1;48.877209, 2.296827; Dance Establishement

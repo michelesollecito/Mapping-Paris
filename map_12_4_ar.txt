@@ -1,0 +1,2 @@
+Place;Address;Arrondissement;Frequency; Coordinates; Type of placeHotel de Ville;Place de l'Hôtel-de-Ville;4;1;48.856483, 2.352414; City PalaceHôtel-dieu;1 Parvis Notre-Dame - Place Jean-Paul-II;4;1;48.853954, 2.348331; HospitalPrado;Boulevard du Palais;4;1;48.855236, 2.345847; Dance EstablishementPrison de La Force;22 Rue Pavée;4;1;48.856941, 2.361549; Prison
+Poissonnerie Anglaise;1 Rue de Rivoli;4;2;48.85558, 2.359164; Restaurant

@@ -1,0 +1,1 @@
+﻿Place;Address;Arrondissement;Frequency; Coordinates; Type of placeAuteuil (Maison de Gavarni);27 – 29 bis rue Chardon-Lagache;16;11;48.84382, 2.265819; Gavarni’s HomeBois de Boulogne;Bois de Boulogne;16;2;48.86244, 2.249173; Public Park

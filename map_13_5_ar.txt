@@ -1,0 +1,1 @@
+﻿Place;Address;Arrondissement;Frequency; Coordinates; Type of placeThéâtre du Panthèon;961 Rue Saint-Jacques;5;1;48.845593, 2.342685; TheaterBullier;31 Avenue Georges-Bernanos;5;1;48.840475, 2.337716; Dance EstablishementJardin des plantes;57 Rue Cuvier;5;3;48.844343, 2.35621; Public Park

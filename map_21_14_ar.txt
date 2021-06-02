@@ -1,0 +1,1 @@
+﻿Place;Address;Arrondissement;Frequency; Coordinates; Type of placeChaumière ;120 bis Boulevard du Montparnasse;14;1;48.84142, 2.330727; Dance EstablishementThéâtre de Bobino;20 Rue de la Gaîté ;14;1;48.840012, 2.323595; Theater

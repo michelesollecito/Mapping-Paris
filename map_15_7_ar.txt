@@ -1,0 +1,1 @@
+﻿Place;Address;Arrondissement;Frequency; Coordinates; Type of placeBon Marché;24 Rue de Sèvres;7;1;48.851026, 2.324509; MarketLes Petits-Menages;Rue de Sèvres;7;1;48.848547, 2.320775; Hospital

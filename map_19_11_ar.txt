@@ -1,0 +1,2 @@
+Place;Address;Arrondissement;Frequency; Coordinates; Type of placeCafé du Géant;47 Boulevard du Temple;11;1;48.866186, 2.364571; CoffeeCafé Turc;9 et 31 Boulevard du Temple;11;1;48.86551, 2.365005; CoffeeCirque Olympique;Boulevard du Temple (Place de la République);11;13;48.867394, 2.363414; TheaterThéâtre des Dèlassements-Comiques;52 Boulevard du Temple;11;3;48.866083, 2.365274; TheaterThéâtre-Lirique (Opèra-National);10 Place de la République;11;1;48.867653, 2.36496; Theater
+Bonvalet;29 Boulevard du Temple;11;1;48.865423, 2.365229; Restaurant
