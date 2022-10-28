@@ -1,0 +1,339 @@
+{
+   "version":"1.2.9",
+   "files":[
+      {
+         "loadFromURL":false,
+         "label":"Untitled",
+         "id":0,
+         "autoFields":[
+            
+         ],
+         "fields":[
+            {
+               "key":"Place",
+               "description":"Place",
+               "cardinality":13,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  "-"
+               ],
+               "unassignedSpecialChars":[
+                  "-"
+               ],
+               "countBy":true,
+               "errors":[
+                  
+               ],
+               "$$hashKey":"object:116",
+               "verifiedSpecialChars":[
+                  "-"
+               ],
+               "confirmed":true,
+               "countable":true,
+               "countDescription":"Untitled"
+            },
+            {
+               "key":" Address",
+               "description":" Address",
+               "cardinality":12,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  "-"
+               ],
+               "unassignedSpecialChars":[
+                  "-"
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:117",
+               "verifiedSpecialChars":[
+                  "-"
+               ],
+               "confirmed":true
+            },
+            {
+               "key":" Arrondissement",
+               "description":" Arrondissement",
+               "cardinality":5,
+               "type":"number",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:118"
+            },
+            {
+               "key":" Coordinates",
+               "description":" Coordinates",
+               "cardinality":12,
+               "type":"latlong",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  ","
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:119",
+               "existenceDimension":"0.wvfvev689f"
+            },
+            {
+               "key":"",
+               "description":"",
+               "cardinality":0,
+               "type":"null",
+               "blanks":13,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:120"
+            }
+         ],
+         "data":[
+            {
+               "Place":"Salon Princesse Mathilde",
+               " Address":"24 rue de Courcelles",
+               " Arrondissement":"8",
+               " Coordinates":"48.874497, 2.310166",
+               "":""
+            },
+            {
+               "Place":"Home Goncourt",
+               " Address":"43 rue Saint-Georges",
+               " Arrondissement":" 9",
+               " Coordinates":"48.877531, 2.337234",
+               "":""
+            },
+            {
+               "Place":"Salon Imperatrice Eugénie",
+               " Address":" Palais des Tuileries",
+               " Arrondissement":" 1",
+               " Coordinates":"48.862041, 2.331783",
+               "":""
+            },
+            {
+               "Place":"Académie de France",
+               " Address":"23 quai de Conti",
+               " Arrondissement":" 6",
+               " Coordinates":"48.857451, 2.33777",
+               "":""
+            },
+            {
+               "Place":"“Salon des Refusés”",
+               " Address":" Rond-point des Champs-Élysées",
+               " Arrondissement":" 8",
+               " Coordinates":"48.869243, 2.309178",
+               "":""
+            },
+            {
+               "Place":"Théâtre des Bouffes-Parisien",
+               " Address":" 4 Rue Monsigny",
+               " Arrondissement":" 2",
+               " Coordinates":"48.86839, 2.335403",
+               "":""
+            },
+            {
+               "Place":"Théâtre-Français",
+               " Address":" 1 Place Colette",
+               " Arrondissement":" 1",
+               " Coordinates":"48.865221, 2.335364",
+               "":""
+            },
+            {
+               "Place":"Théâtre du Vaudeville",
+               " Address":" 27 bis Rue Vivienne",
+               " Arrondissement":" 2",
+               " Coordinates":"48.869068, 2.34003",
+               "":""
+            },
+            {
+               "Place":"Théâtre du Palais-Royal",
+               " Address":" 8 Rue de Montpensier",
+               " Arrondissement":" 1",
+               " Coordinates":"48.863757, 2.337126",
+               "":""
+            },
+            {
+               "Place":"Café Momus",
+               " Address":" 19 rue des Prêtres-Saint-Germain-l'Auxerrois",
+               " Arrondissement":" 1",
+               " Coordinates":"48.859226, 2.340996",
+               "":""
+            },
+            {
+               "Place":"Diner Magny",
+               " Address":" 3 Rue André Mazet",
+               " Arrondissement":" 6",
+               " Coordinates":"48.854125, 2.339124",
+               "":""
+            },
+            {
+               "Place":"Censure",
+               " Address":"Palais des Tuileries",
+               " Arrondissement":"1",
+               " Coordinates":"48.862041, 2.331783",
+               "":""
+            },
+            {
+               "Place":"Société des auteurs et compositeurs dramatiques",
+               " Address":" 11 rue Ballu",
+               " Arrondissement":" 9",
+               " Coordinates":"48.881692, 2.330703",
+               "":""
+            }
+         ],
+         "uniqueId":0,
+         "$$hashKey":"object:110"
+      }
+   ],
+   "links":[
+      
+   ],
+   "layout":"geo",
+   "metadata":{
+      "title":"mappa 2",
+      "author":null,
+      "date":null,
+      "description":null
+   },
+   "vis":[
+      {
+         "type":"palladioFilters",
+         "importJson":{
+            "facets":[
+               
+            ],
+            "timelines":[
+               
+            ],
+            "partimes":[
+               
+            ],
+            "timesteps":[
+               
+            ]
+         }
+      },
+      {
+         "type":"graphView",
+         "importJson":{
+            "showLinks":true,
+            "showLabels":true,
+            "aggregateKey":null,
+            "aggregationType":"COUNT",
+            "nodeSize":false,
+            "highlightSource":false,
+            "highlightTarget":false,
+            "aggDimKey":"Place",
+            "sourceDimension":null,
+            "targetDimension":null,
+            "fixedNodes":false
+         }
+      },
+      {
+         "type":"mapView",
+         "importJson":{
+            "tileSets":[
+               {
+                  "url":null,
+                  "mbId":"cesta/ckg1qp80v02631apq1amjacri",
+                  "enabled":true,
+                  "description":"Streets"
+               },
+               {
+                  "url":null,
+                  "mbId":"cesta.hd9ak6ie",
+                  "enabled":true,
+                  "description":"Land"
+               }
+            ],
+            "layers":[
+               {
+                  "aggDescription":"Number of Untitled",
+                  "aggregateKey":null,
+                  "aggregationType":"COUNT",
+                  "color":"#e1279e",
+                  "countBy":"Place",
+                  "description":" Coordinates",
+                  "enabled":true,
+                  "layerType":"data",
+                  "descriptiveDimKey":"Place",
+                  "mapping":{
+                     "sourceCoordinatesKey":" Coordinates",
+                     "sourceCoordinatesType":null,
+                     "sourceCoordinatesDescription":" Coordinates",
+                     "destinationCoordinatesKey":null,
+                     "destinationCoordinatesType":null,
+                     "destinationCoordinatesDescription":null
+                  },
+                  "pointSize":false,
+                  "showLinks":false,
+                  "type":"points"
+               }
+            ]
+         }
+      },
+      {
+         "type":"tableView",
+         "importJson":{
+            "tableDimensions":[
+               
+            ],
+            "countDim":null,
+            "maxDisplay":1000
+         }
+      },
+      {
+         "type":"listView",
+         "importJson":{
+            "titleDim":"Place"
+         }
+      }
+   ]
+}

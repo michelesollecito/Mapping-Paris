@@ -1,0 +1,311 @@
+{
+   "version":"1.2.9",
+   "files":[
+      {
+         "loadFromURL":false,
+         "label":"Untitled",
+         "id":0,
+         "autoFields":[
+            
+         ],
+         "fields":[
+            {
+               "key":"Place",
+               "description":"Place",
+               "cardinality":5,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  "-"
+               ],
+               "unassignedSpecialChars":[
+                  "-"
+               ],
+               "countBy":true,
+               "errors":[
+                  
+               ],
+               "$$hashKey":"object:116",
+               "verifiedSpecialChars":[
+                  "-"
+               ],
+               "confirmed":true,
+               "countable":true,
+               "countDescription":"Untitled"
+            },
+            {
+               "key":"Address",
+               "description":"Address",
+               "cardinality":5,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  "-"
+               ],
+               "unassignedSpecialChars":[
+                  "-"
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:117",
+               "verifiedSpecialChars":[
+                  "-"
+               ],
+               "confirmed":true
+            },
+            {
+               "key":"Arrondissement",
+               "description":"Arrondissement",
+               "cardinality":1,
+               "type":"number",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:118"
+            },
+            {
+               "key":"Frequency",
+               "description":"Frequency",
+               "cardinality":2,
+               "type":"number",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:119"
+            },
+            {
+               "key":" Coordinates",
+               "description":" Coordinates",
+               "cardinality":5,
+               "type":"latlong",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  ","
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:120",
+               "existenceDimension":"0.hre3sqkmhv"
+            },
+            {
+               "key":" Type of place",
+               "description":" Type of place",
+               "cardinality":5,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:121"
+            }
+         ],
+         "data":[
+            {
+               "Place":"Hotel de Ville",
+               "Address":"Place de l'Hôtel-de-Ville",
+               "Arrondissement":"4",
+               "Frequency":"1",
+               " Coordinates":"48.856483, 2.352414",
+               " Type of place":" City Palace"
+            },
+            {
+               "Place":"Hôtel-dieu",
+               "Address":"1 Parvis Notre-Dame - Place Jean-Paul-II",
+               "Arrondissement":"4",
+               "Frequency":"1",
+               " Coordinates":"48.853954, 2.348331",
+               " Type of place":" Hospital"
+            },
+            {
+               "Place":"Prado",
+               "Address":"Boulevard du Palais",
+               "Arrondissement":"4",
+               "Frequency":"1",
+               " Coordinates":"48.855236, 2.345847",
+               " Type of place":" Dance Establishement"
+            },
+            {
+               "Place":"Prison de La Force",
+               "Address":"22 Rue Pavée",
+               "Arrondissement":"4",
+               "Frequency":"1",
+               " Coordinates":"48.856941, 2.361549",
+               " Type of place":" Prison"
+            },
+            {
+               "Place":"Poissonnerie Anglaise",
+               "Address":"1 Rue de Rivoli",
+               "Arrondissement":"4",
+               "Frequency":"2",
+               " Coordinates":"48.85558, 2.359164",
+               " Type of place":" Restaurant"
+            }
+         ],
+         "uniqueId":0,
+         "$$hashKey":"object:110"
+      }
+   ],
+   "links":[
+      
+   ],
+   "layout":"geo",
+   "metadata":{
+      "title":"12",
+      "author":null,
+      "date":null,
+      "description":null
+   },
+   "vis":[
+      {
+         "type":"palladioFilters",
+         "importJson":{
+            "facets":[
+               
+            ],
+            "timelines":[
+               
+            ],
+            "partimes":[
+               
+            ],
+            "timesteps":[
+               
+            ]
+         }
+      },
+      {
+         "type":"graphView",
+         "importJson":{
+            "showLinks":true,
+            "showLabels":true,
+            "aggregateKey":null,
+            "aggregationType":"COUNT",
+            "nodeSize":false,
+            "highlightSource":false,
+            "highlightTarget":false,
+            "aggDimKey":"Place",
+            "sourceDimension":null,
+            "targetDimension":null,
+            "fixedNodes":false
+         }
+      },
+      {
+         "type":"mapView",
+         "importJson":{
+            "tileSets":[
+               {
+                  "url":null,
+                  "mbId":"cesta/ckg1qp80v02631apq1amjacri",
+                  "enabled":true,
+                  "description":"Streets"
+               },
+               {
+                  "url":null,
+                  "mbId":"cesta.hd9ak6ie",
+                  "enabled":true,
+                  "description":"Land"
+               }
+            ],
+            "layers":[
+               {
+                  "aggDescription":"Sum of Frequency (from Untitled table)",
+                  "aggregateKey":"Frequency",
+                  "aggregationType":"SUM",
+                  "color":"#3d7ce1",
+                  "countBy":"Place",
+                  "description":" Coordinates",
+                  "enabled":true,
+                  "layerType":"data",
+                  "descriptiveDimKey":"Place",
+                  "mapping":{
+                     "sourceCoordinatesKey":" Coordinates",
+                     "sourceCoordinatesType":null,
+                     "sourceCoordinatesDescription":" Coordinates",
+                     "destinationCoordinatesKey":null,
+                     "destinationCoordinatesType":null,
+                     "destinationCoordinatesDescription":null
+                  },
+                  "pointSize":true,
+                  "showLinks":false,
+                  "type":"points"
+               }
+            ]
+         }
+      },
+      {
+         "type":"tableView",
+         "importJson":{
+            "tableDimensions":[
+               
+            ],
+            "countDim":null,
+            "maxDisplay":1000
+         }
+      },
+      {
+         "type":"listView",
+         "importJson":{
+            "titleDim":"Place"
+         }
+      }
+   ]
+}

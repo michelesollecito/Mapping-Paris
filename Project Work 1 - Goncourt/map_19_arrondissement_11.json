@@ -1,0 +1,315 @@
+{
+   "version":"1.2.9",
+   "files":[
+      {
+         "loadFromURL":false,
+         "label":"Untitled",
+         "id":0,
+         "autoFields":[
+            
+         ],
+         "fields":[
+            {
+               "key":"Place",
+               "description":"Place",
+               "cardinality":6,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  "-"
+               ],
+               "unassignedSpecialChars":[
+                  "-"
+               ],
+               "countBy":true,
+               "errors":[
+                  
+               ],
+               "$$hashKey":"object:116",
+               "verifiedSpecialChars":[
+                  "-"
+               ],
+               "confirmed":true,
+               "countable":true,
+               "countDescription":"Untitled"
+            },
+            {
+               "key":"Address",
+               "description":"Address",
+               "cardinality":6,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:117"
+            },
+            {
+               "key":"Arrondissement",
+               "description":"Arrondissement",
+               "cardinality":1,
+               "type":"number",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:118"
+            },
+            {
+               "key":"Frequency",
+               "description":"Frequency",
+               "cardinality":3,
+               "type":"number",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:119"
+            },
+            {
+               "key":" Coordinates",
+               "description":" Coordinates",
+               "cardinality":6,
+               "type":"latlong",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  ","
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:120",
+               "existenceDimension":"0.0hjiwr6gc7o9"
+            },
+            {
+               "key":" Type of place",
+               "description":" Type of place",
+               "cardinality":3,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:121"
+            }
+         ],
+         "data":[
+            {
+               "Place":"Café du Géant",
+               "Address":"47 Boulevard du Temple",
+               "Arrondissement":"11",
+               "Frequency":"1",
+               " Coordinates":"48.866186, 2.364571",
+               " Type of place":" Coffee"
+            },
+            {
+               "Place":"Café Turc",
+               "Address":"9 et 31 Boulevard du Temple",
+               "Arrondissement":"11",
+               "Frequency":"1",
+               " Coordinates":"48.86551, 2.365005",
+               " Type of place":" Coffee"
+            },
+            {
+               "Place":"Cirque Olympique",
+               "Address":"Boulevard du Temple (Place de la République)",
+               "Arrondissement":"11",
+               "Frequency":"13",
+               " Coordinates":"48.867394, 2.363414",
+               " Type of place":" Theater"
+            },
+            {
+               "Place":"Théâtre des Dèlassements-Comiques",
+               "Address":"52 Boulevard du Temple",
+               "Arrondissement":"11",
+               "Frequency":"3",
+               " Coordinates":"48.866083, 2.365274",
+               " Type of place":" Theater"
+            },
+            {
+               "Place":"Théâtre-Lirique (Opèra-National)",
+               "Address":"10 Place de la République",
+               "Arrondissement":"11",
+               "Frequency":"1",
+               " Coordinates":"48.867653, 2.36496",
+               " Type of place":" Theater"
+            },
+            {
+               "Place":"Bonvalet",
+               "Address":"29 Boulevard du Temple",
+               "Arrondissement":"11",
+               "Frequency":"1",
+               " Coordinates":"48.865423, 2.365229",
+               " Type of place":" Restaurant"
+            }
+         ],
+         "uniqueId":0,
+         "$$hashKey":"object:110"
+      }
+   ],
+   "links":[
+      
+   ],
+   "layout":"geo",
+   "metadata":{
+      "title":"19",
+      "author":null,
+      "date":null,
+      "description":null
+   },
+   "vis":[
+      {
+         "type":"palladioFilters",
+         "importJson":{
+            "facets":[
+               
+            ],
+            "timelines":[
+               
+            ],
+            "partimes":[
+               
+            ],
+            "timesteps":[
+               
+            ]
+         }
+      },
+      {
+         "type":"graphView",
+         "importJson":{
+            "showLinks":true,
+            "showLabels":true,
+            "aggregateKey":null,
+            "aggregationType":"COUNT",
+            "nodeSize":false,
+            "highlightSource":false,
+            "highlightTarget":false,
+            "aggDimKey":"Place",
+            "sourceDimension":null,
+            "targetDimension":null,
+            "fixedNodes":false
+         }
+      },
+      {
+         "type":"mapView",
+         "importJson":{
+            "tileSets":[
+               {
+                  "url":null,
+                  "mbId":"cesta/ckg1qp80v02631apq1amjacri",
+                  "enabled":true,
+                  "description":"Streets"
+               },
+               {
+                  "url":null,
+                  "mbId":"cesta.hd9ak6ie",
+                  "enabled":true,
+                  "description":"Land"
+               }
+            ],
+            "layers":[
+               {
+                  "aggDescription":"Sum of Frequency (from Untitled table)",
+                  "aggregateKey":"Frequency",
+                  "aggregationType":"SUM",
+                  "color":"#3d7ce1",
+                  "countBy":"Place",
+                  "description":" Coordinates",
+                  "enabled":true,
+                  "layerType":"data",
+                  "descriptiveDimKey":"Place",
+                  "mapping":{
+                     "sourceCoordinatesKey":" Coordinates",
+                     "sourceCoordinatesType":null,
+                     "sourceCoordinatesDescription":" Coordinates",
+                     "destinationCoordinatesKey":null,
+                     "destinationCoordinatesType":null,
+                     "destinationCoordinatesDescription":null
+                  },
+                  "pointSize":true,
+                  "showLinks":false,
+                  "type":"points"
+               }
+            ]
+         }
+      },
+      {
+         "type":"tableView",
+         "importJson":{
+            "tableDimensions":[
+               
+            ],
+            "countDim":null,
+            "maxDisplay":1000
+         }
+      },
+      {
+         "type":"listView",
+         "importJson":{
+            "titleDim":"Place"
+         }
+      }
+   ]
+}

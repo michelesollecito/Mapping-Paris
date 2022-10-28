@@ -1,0 +1,279 @@
+{
+   "version":"1.2.9",
+   "files":[
+      {
+         "loadFromURL":false,
+         "label":"Untitled",
+         "id":0,
+         "autoFields":[
+            
+         ],
+         "fields":[
+            {
+               "key":"Place",
+               "description":"Place",
+               "cardinality":2,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":true,
+               "errors":[
+                  
+               ],
+               "$$hashKey":"object:116",
+               "countable":true,
+               "countDescription":"Untitled"
+            },
+            {
+               "key":"Address",
+               "description":"Address",
+               "cardinality":2,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:117"
+            },
+            {
+               "key":"Arrondissement",
+               "description":"Arrondissement",
+               "cardinality":1,
+               "type":"number",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":false,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:118"
+            },
+            {
+               "key":"Frequency",
+               "description":"Frequency",
+               "cardinality":2,
+               "type":"number",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:119"
+            },
+            {
+               "key":" Coordinates",
+               "description":" Coordinates",
+               "cardinality":2,
+               "type":"latlong",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  ","
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:120",
+               "existenceDimension":"0.tk1zaauo8wg"
+            },
+            {
+               "key":" Type of place",
+               "description":" Type of place",
+               "cardinality":2,
+               "type":"text",
+               "blanks":0,
+               "uniques":[
+                  
+               ],
+               "uniqueKey":true,
+               "special":[
+                  
+               ],
+               "unassignedSpecialChars":[
+                  
+               ],
+               "countBy":false,
+               "errors":[
+                  
+               ],
+               "descriptiveField":"Place",
+               "$$hashKey":"object:121"
+            }
+         ],
+         "data":[
+            {
+               "Place":"Père Lathuile",
+               "Address":"7 Avenue de Clichy",
+               "Arrondissement":"17",
+               "Frequency":"2",
+               " Coordinates":"48.884329, 2.326845",
+               " Type of place":" Restaurant"
+            },
+            {
+               "Place":"Dourlans (Bal)",
+               "Address":"39 Avenue de Wagram",
+               "Arrondissement":"17",
+               "Frequency":"1",
+               " Coordinates":"48.877209, 2.296827",
+               " Type of place":" Dance Establishement"
+            }
+         ],
+         "uniqueId":0,
+         "$$hashKey":"object:110"
+      }
+   ],
+   "links":[
+      
+   ],
+   "layout":"geo",
+   "metadata":{
+      "title":"23",
+      "author":null,
+      "date":null,
+      "description":null
+   },
+   "vis":[
+      {
+         "type":"palladioFilters",
+         "importJson":{
+            "facets":[
+               
+            ],
+            "timelines":[
+               
+            ],
+            "partimes":[
+               
+            ],
+            "timesteps":[
+               
+            ]
+         }
+      },
+      {
+         "type":"graphView",
+         "importJson":{
+            "showLinks":true,
+            "showLabels":true,
+            "aggregateKey":null,
+            "aggregationType":"COUNT",
+            "nodeSize":false,
+            "highlightSource":false,
+            "highlightTarget":false,
+            "aggDimKey":"Place",
+            "sourceDimension":null,
+            "targetDimension":null,
+            "fixedNodes":false
+         }
+      },
+      {
+         "type":"mapView",
+         "importJson":{
+            "tileSets":[
+               {
+                  "url":null,
+                  "mbId":"cesta/ckg1qp80v02631apq1amjacri",
+                  "enabled":true,
+                  "description":"Streets"
+               },
+               {
+                  "url":null,
+                  "mbId":"cesta.hd9ak6ie",
+                  "enabled":true,
+                  "description":"Land"
+               }
+            ],
+            "layers":[
+               {
+                  "aggDescription":"Sum of Frequency (from Untitled table)",
+                  "aggregateKey":"Frequency",
+                  "aggregationType":"SUM",
+                  "color":"#eb9b16",
+                  "countBy":"Place",
+                  "description":" Coordinates",
+                  "enabled":true,
+                  "layerType":"data",
+                  "descriptiveDimKey":"Place",
+                  "mapping":{
+                     "sourceCoordinatesKey":" Coordinates",
+                     "sourceCoordinatesType":null,
+                     "sourceCoordinatesDescription":" Coordinates",
+                     "destinationCoordinatesKey":null,
+                     "destinationCoordinatesType":null,
+                     "destinationCoordinatesDescription":null
+                  },
+                  "pointSize":true,
+                  "showLinks":false,
+                  "type":"points"
+               }
+            ]
+         }
+      },
+      {
+         "type":"tableView",
+         "importJson":{
+            "tableDimensions":[
+               
+            ],
+            "countDim":null,
+            "maxDisplay":1000
+         }
+      },
+      {
+         "type":"listView",
+         "importJson":{
+            "titleDim":"Place"
+         }
+      }
+   ]
+}
